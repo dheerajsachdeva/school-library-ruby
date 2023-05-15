@@ -55,7 +55,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Sort and Search Enumerables]**
+- **[Create classes and inheritence added]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,7 +77,7 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this [repository](repo:git@github.com:Jolak5/enumerables.git) to your desired folder.
+Clone this [repository](git@github.com:dheerajsachdeva/school-library-ruby.git) to your desired folder.
 
 ### Install
 
@@ -87,8 +87,8 @@ This project does not require installation.
 
 **To run the project follow the following instruction:-**
 
-- Clone this [repository](repo:git@github.com:Jolak5/enumerables.git) in your local machine with correct branch.
-- Run **ruby classmylist.rb**
+- Clone this [repository](git@github.com:dheerajsachdeva/school-library-ruby.git) in your local machine with correct branch.
+- Run **file_name.rb**
 
 ### Run tests
 
@@ -102,19 +102,11 @@ You can deploy this project using: **Not available**
 
 ## 👥 Authors <a name="DHEERAJ SACHDEVA"></a>
 
-👤 **Author**
+👤 **DHEERAJ SACHDEVA**
 
 - GitHub: [@githubhandle](https://github.com/dheerajsachdeva)
 - Twitter: [@twitterhandle](https://twitter.com/dheerajarya)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/dheeraj-sachdeva-502b2b8/)
-
-## 👥 Authors <a name="authors"></a>
-
-👤 **kayode Olatunji**
-
-- GitHub: [@githubhandle](https://github.com/Jolak5)
-- Twitter: [@twitterhandle](https://twitter.com/I_amBabakay)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/olatunji-kayode/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,7 +115,7 @@ You can deploy this project using: **Not available**
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[More Enumerables - for searching and sorting data]**
+- [ ] **[Create Book and Rental features will be added]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -132,7 +124,7 @@ You can deploy this project using: **Not available**
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [repo:git@github.com:Jolak5/enumerables.git]
+Feel free to check the [repo:git@github.com:dheerajsachdeva/school-library-ruby.git]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,15 +136,15 @@ If you like this project please follow me on github
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-We would like to thank Microverse.
+I would like to thank Microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-- **[What is Enumerables Project?]**
+- **[What is School Library Project?]**
 
-  - [In this project, we did several traversal and searching methods, and with the ability to sort]
+  - [In this project, we will create a school library to add, create book and show list of books on rental]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
