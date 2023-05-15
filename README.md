@@ -52,7 +52,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 <ul>
 <li>cd my-folder</li>
-<li>git clone https://github.com/AmineDerbal/school-library-ruby.git</li>
+<li>git clone git@github.com:dheerajsachdeva/school-library-ruby.git</li>
 </ul>
 
 ### Install
