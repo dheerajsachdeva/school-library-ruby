@@ -26,6 +26,30 @@
 
 **[School Library]** is based on Ruby Language.
 
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href=#>RUBY</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href=#>N/A</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href=#>N/A</a></li>
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
 
