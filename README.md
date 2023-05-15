@@ -26,32 +26,6 @@
 
 **[School Library]** is based on Ruby Language.
 
-## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href=#>RUBY</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href=#>N/A</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href=#>N/A</a></li>
-  </ul>
-</details>
 
 ### Key Features <a name="key-features"></a>
 
@@ -63,40 +37,38 @@
 
 To get a local copy up and running, follow these steps.
 
-- clone this repo:git@github.com:Jolak5/enumerables.git
+- clone this repo:git@github.com:dheerajsachdeva/school-library-ruby.git
 
 
 ### Prerequisites
 
 In order to run this project you need:
-
-- Git installed in desktop
-- Code editor of your choice i.e; Visual Studio Code
-- RUBY
-- Terminal of your choice i.e; Git Bash or CMD or Terminal
-
+<ul>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+  </ul>
+  
 ### Setup
 
-Clone this [repository](git@github.com:dheerajsachdeva/school-library-ruby.git) to your desired folder.
+Clone this repository to your desired folder:
+<ul>
+<li>cd my-folder</li>
+<li>git clone https://github.com/AmineDerbal/school-library-ruby.git</li>
+</ul>
 
 ### Install
 
-This project does not require installation.
+Install this project with:
+<ul>
+<li>bundle install</li>
+</ul>
 
 ### Usage
 
-**To run the project follow the following instruction:-**
+To run the project, execute the following command:
+<ul>
+<li>ruby person.rb</li>
+</ul>
 
-- Clone this [repository](git@github.com:dheerajsachdeva/school-library-ruby.git) in your local machine with correct branch.
-- Run **file_name.rb**
-
-### Run tests
-
-To run tests, run the following command: **Not available**.
-
-### Deployment
-
-You can deploy this project using: **Not available**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
