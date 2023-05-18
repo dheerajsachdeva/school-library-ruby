@@ -90,7 +90,7 @@ Install this project with:
 
 To run the project, execute the following command:
 <ul>
-<li>ruby person.rb</li>
+<li>ruby main.rb</li>
 </ul>
 
 
@@ -111,7 +111,7 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Create Book and Rental features will be added]**
+- [ ] **[More conditional checking will be added in future]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
