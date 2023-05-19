@@ -78,7 +78,7 @@ class App
       puts "#{index}) #{[person.class.name]} Name #{person.name}, ID #{person.id}, Age #{person.age}"
     end
     person_index = gets.chomp.to_i
-    puts 'Date'
+    puts 'Date(YYYY-MM-DD)'
     date = gets.chomp
     Rental.new(date, @peoples[person_index], @books[number])
     puts 'Rental created successfully'
