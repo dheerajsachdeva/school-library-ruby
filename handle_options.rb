@@ -1,6 +1,9 @@
+require_relative 'display_ui'
+
 class HandleOptions
 def initialize(app)
 @app = app
+@displayUi = DisplayUI.new(app)
 end
 
 def display
@@ -29,13 +32,12 @@ def display
       input = gets.chomp
       if menu_options.key?(input)
         run = menu_options[input]
-        @app.send(run)
+        @displayUi.send(run)
         break if run == 'exit'
         else
         puts 'Enter the correct option: '
       end
     end
-    
   end
  
 end
