@@ -6,12 +6,12 @@ class DisplayUI
   end
 
   def list_all_books
-    puts "Books:-"
+    puts 'Books:-'
     @app.list_all_books
   end
 
   def list_all_peoples
-    puts "Peoples:-"
+    puts 'Peoples:-'
     @app.list_all_peoples
   end
 
@@ -44,10 +44,10 @@ class DisplayUI
     print 'Has parent permission? (Y/N): '
     parent_permission = false
     temp = gets.chomp.downcase
-    while !['y', 'n'].include?(temp)
+    until %w[y n].include?(temp)
       print 'Has parent permission? (Y/N): '
       temp = gets.chomp.downcase
-      parent_permission = true if temp == 'y'#######
+      parent_permission = true if temp == 'y'
     end
     @app.create_student(age, classroom, name, parent_permission)
     puts 'Person Created Successfully'
@@ -90,7 +90,5 @@ class DisplayUI
     person.rentals.each do |rental|
       puts "Date #{rental.date}, Book: #{rental.book.title} by #{rental.book.author}"
     end
-
   end
-
 end

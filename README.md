@@ -96,6 +96,10 @@ To run the project, execute the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+👤 **Shubham Bhoyar**
+
+- GitHub: [@shubhambhoyar077](https://github.com/shubhambhoyar077)
+
 ## 👥 Authors <a name="DHEERAJ SACHDEVA"></a>
 
 👤 **DHEERAJ SACHDEVA**

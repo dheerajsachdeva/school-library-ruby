@@ -1,12 +1,12 @@
 require_relative 'display_ui'
 
 class HandleOptions
-def initialize(app)
-@app = app
-@displayUi = DisplayUI.new(app)
-end
+  def initialize(app)
+    @app = app
+    @display_ui = DisplayUI.new(app)
+  end
 
-def display
+  def display
     puts 'Please choose an option by entering a number:'
     puts '1 - List all books'
     puts '2 - List all people'
@@ -16,7 +16,7 @@ def display
     puts '6 - List all rentals for a given person id'
     puts '7 - Exit'
   end
-  
+
   def run_app
     menu_options = {
       '1' => :list_all_books,
@@ -28,16 +28,15 @@ def display
       '7' => :exit
     }
     loop do
-      display    
+      display
       input = gets.chomp
       if menu_options.key?(input)
         run = menu_options[input]
-        @displayUi.send(run)
+        @display_ui.send(run)
         break if run == 'exit'
-        else
+      else
         puts 'Enter the correct option: '
       end
     end
   end
- 
 end

@@ -5,6 +5,7 @@ require_relative 'rental'
 
 class App
   attr_reader :books, :peoples
+
   def initialize
     @books = []
     @peoples = []
@@ -37,6 +38,7 @@ class App
   def list_rentals(id)
     @peoples.each do |person|
       next unless person.id == id
+
       return person
     end
   end

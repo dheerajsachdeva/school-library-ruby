@@ -7,6 +7,6 @@ def main
   handle_options = HandleOptions.new(app)
   puts 'Welcome to the School Library App!'
   handle_options.run_app
- end
+end
 
 main
