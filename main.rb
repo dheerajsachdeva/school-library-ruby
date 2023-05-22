@@ -1,7 +1,6 @@
 require_relative 'app'
 require_relative 'handle_options'
 
-
 def main
   app = App.new
   handle_options = HandleOptions.new(app)
