@@ -19,8 +19,8 @@ class App
     @peoples.each { |people| puts "#{[people.class.name]} Name = #{people.name} ID = #{people.id} Age = #{people.age}" }
   end
 
-  def create_student(age, classroom, name, parent_permission)
-    @peoples << Student.new(age, classroom, name, parent_permission: parent_permission)
+  def create_student(age, name, parent_permission)
+    @peoples << Student.new(age, name, parent_permission: parent_permission)
   end
 
   def create_teacher(specialization, age, name)
