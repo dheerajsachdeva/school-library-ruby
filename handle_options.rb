@@ -47,8 +47,7 @@ class HandleOptions
     name = gets.chomp
     print 'Has parent permission? (Y/N): '
     parent_permission = false
-    temp = gets.chomp.downcase
-    parent_permission = true unless %w[N n No no].include?(temp)
+    parent_permission = true unless %w[N n No no].include?(gets.chomp.downcase)
     person = { options: number, age: age, name: name, permission: parent_permission }
     if number == '1'
       @app.create_student(age, name, parent_permission)
