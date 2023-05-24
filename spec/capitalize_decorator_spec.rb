@@ -11,7 +11,6 @@ describe CapitalizeDecorator do
   end
 
   it 'checking for correct name method should return Capitalize' do
-    expect(@capdecorator.correct_name()).to eq('Shubham')
+    expect(@capdecorator.correct_name).to eq('Shubham')
   end
-
 end

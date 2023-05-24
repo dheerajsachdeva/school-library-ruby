@@ -9,11 +9,9 @@ describe Student do
     expect(@student).to be_instance_of Student
   end
 
-
   it 'checking attributes' do
     expect(@student.play_hooky).to eq('¯(ツ)/¯')
   end
-
 
   it 'test for setter_classroom' do
     classroom = double('classroom', students: [])

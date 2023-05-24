@@ -11,7 +11,6 @@ describe Decorator do
   end
 
   it 'checking for correct name method should renturn same name' do
-    expect(@decorator.correct_name()).to eq('shubham')
+    expect(@decorator.correct_name).to eq('shubham')
   end
-
 end

@@ -18,7 +18,6 @@ describe Rental do
     expect(@rental).to be_instance_of Rental
   end
 
-
   it 'checking attributes' do
     expect(@rental.date).to eq('2023-05-24')
   end
@@ -30,5 +29,4 @@ describe Rental do
   it 'checking for person' do
     expect(@rental.person.name).to eq('shubham')
   end
-
 end

@@ -9,7 +9,6 @@ describe Book do
     expect(@book).to be_instance_of Book
   end
 
-
   it 'checking attributes' do
     expect(@book).to have_attributes(title: 'Harry Potter', author: 'Shubham')
   end

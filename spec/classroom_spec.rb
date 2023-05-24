@@ -9,11 +9,9 @@ describe ClassRoom do
     expect(@classroom).to be_instance_of ClassRoom
   end
 
-
   it 'checking attributes' do
     expect(@classroom.label).to eq('Eight')
   end
-
 
   it 'test for add student' do
     student = double('student')

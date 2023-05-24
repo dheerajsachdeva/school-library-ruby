@@ -11,7 +11,6 @@ describe TrimmerDecorator do
   end
 
   it 'checking for correct name method should return Trimme name' do
-    expect(@trimdecorator.correct_name()).to eq('shubhamabc')
+    expect(@trimdecorator.correct_name).to eq('shubhamabc')
   end
-
 end

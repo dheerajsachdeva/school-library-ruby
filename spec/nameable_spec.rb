@@ -6,7 +6,6 @@ describe Nameable do
   end
 
   it 'checking for correct name with NotImplementedError' do
-    expect{@nameable.correct_name()}.to raise_error(NotImplementedError)
+    expect { @nameable.correct_name }.to raise_error(NotImplementedError)
   end
-
 end

@@ -9,7 +9,6 @@ describe Person do
     expect(@person).to be_instance_of Person
   end
 
-
   it 'checking attributes' do
     expect(@person).to have_attributes(age: 30, name: 'Shubham', parent_permission: 'true')
   end

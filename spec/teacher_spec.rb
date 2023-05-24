@@ -12,7 +12,4 @@ describe Teacher do
   it 'can use services' do
     expect(@teacher.can_use_services?).to be true
   end
-
-
- 
 end
