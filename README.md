@@ -93,6 +93,11 @@ To run the project, execute the following command:
 <li>ruby main.rb</li>
 </ul>
 
+### Run tests
+
+To run tests, run the following command: Install through : gem install rspec
+
+Run: rspec to tun tests
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
